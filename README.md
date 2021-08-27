@@ -1,5 +1,6 @@
 This is how I modified my Handson Tech motor shield to provide a current sense output for a Arduino.
-I needed to do this so I could use the board with DCC++EX.
+I needed to do this so I could use the board with DCC++EX.https://dcc-ex.com/index.html
+
 This is my board:http://www.handsontec.com/dataspecs/arduino-shield/L298P%20Motor%20Shield.pdf
 
 *DO AT YOUR OWN RISK*
