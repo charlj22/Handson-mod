@@ -36,10 +36,10 @@ In the DCC++EX config.h you have to change
 to
 
 #define HANDSON F("HANDSON"),\
-  new MotorDriver(10, 12, UNUSED_PIN, UNUSED_PIN, A0, 2.80, 2000, UNUSED_PIN), \
-  new MotorDriver(11, 13, UNUSED_PIN, UNUSED_PIN, A1, 2.80, 2000, UNUSED_PIN)
+  new MotorDriver(10, 12, UNUSED_PIN, UNUSED_PIN, A0, 9.70, 2000, UNUSED_PIN), \
+  new MotorDriver(11, 13, UNUSED_PIN, UNUSED_PIN, A1, 9.70, 2000, UNUSED_PIN)
 
 #define MOTOR_SHIELD_TYPE HANDSON
 
-You might have to tweak the sense factor to suite your installation. I use 2.80 with mine.
+You might have to tweak the sense factor to suite your installation. I use 9.70 with mine.
 
