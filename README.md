@@ -3,13 +3,14 @@ I needed to do this so I could use the board with DCC++EX.
 This is my board:http://www.handsontec.com/dataspecs/arduino-shield/L298P%20Motor%20Shield.pdf
 
 *DO AT YOUR OWN RISK*
+
 MOVE THE DESOLDERED PINS AS LITTLE AS POSIBLE
 
 ![alt text](https://github.com/charlj22/Handson-mod/blob/main/Images/20210816_071305.jpg?raw=true)
-The second pins from the to of the big IC needs to be desoldered.
+The second pins from the top of the big IC L298P needs to be desoldered.
 
 ![alt text](https://github.com/charlj22/Handson-mod/blob/main/Images/20210816_124721.jpg?raw=true)
-I used a piece of coper wire with a hook bent to help with lifting the pin while heating the solder joint
+I used a piece of coper wire with a hook bent to help with lifting the pin while heating the solder joint.
 
 ![alt text](https://github.com/charlj22/Handson-mod/blob/main/Images/20210816_125156.jpg?raw=true)
 Bend the pin up to clear the ground pane under it
@@ -22,8 +23,7 @@ Do the same for the other pin
 Solder an piece of wire to the pins
 
 ![alt text](https://github.com/charlj22/Handson-mod/blob/main/Images/20210825_144405.jpg?raw=true)
-Bend the wire so pin2 connects with the Analog0 header pin
-Bend the wire so pin15 connects with the Analog1 header pin and solder them in place
+Bend the wire so pin2 connects with the Analog0 header pin. Bend the wire so pin15 connects with the Analog1 header pin and solder them in place
 
 ![alt text](https://github.com/charlj22/Handson-mod/blob/main/Images/20210825_145049.jpg?raw=true)
 Solder a 0.5 Ohm 2 Watt resistor between the Analog0 and Ground Headers. Do the same with the Analog1 header
@@ -40,5 +40,5 @@ to
 
 #define MOTOR_SHIELD_TYPE HANDSON
 
-You might have to tweek the sense factor to suite your installation
+You might have to tweak the sense factor to suite your installation
 
