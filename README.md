@@ -40,5 +40,5 @@ to
 
 #define MOTOR_SHIELD_TYPE HANDSON
 
-You might have to tweak the sense factor to suite your installation
+You might have to tweak the sense factor to suite your installation. I use 2.80 with mine.
 
