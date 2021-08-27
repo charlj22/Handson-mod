@@ -7,7 +7,7 @@ This is my board:http://www.handsontec.com/dataspecs/arduino-shield/L298P%20Moto
 MOVE THE DESOLDERED PINS AS LITTLE AS POSIBLE
 
 ![alt text](https://github.com/charlj22/Handson-mod/blob/main/Images/20210816_071305.jpg?raw=true)
-The second pins from the top of the big IC L298P needs to be desoldered.
+The second pins from the top on both sides of the big IC L298P needs to be desoldered. Its pins 2 and 15.
 
 ![alt text](https://github.com/charlj22/Handson-mod/blob/main/Images/20210816_124721.jpg?raw=true)
 I used a piece of coper wire with a hook bent to help with lifting the pin while heating the solder joint.
